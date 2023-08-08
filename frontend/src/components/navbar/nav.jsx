@@ -1,19 +1,18 @@
-import { Form, Input } from 'antd';
-import { Menu, Button, Space } from 'antd';
-import { MenuOutlined } from '@ant-design/icons';
-import React from 'react';
-import "./nav.css"
-
+import { Form, Input } from "antd";
+import { Menu, Button, Space } from "antd";
+import { MenuOutlined } from "@ant-design/icons";
+import React from "react";
+import "./nav.css";
 
 function Navigation() {
-    return (
-        // <div className="navb bg-white drop-shadow-xl">
-        //         <Form className='nav w-80'>
-        //             <Input className='border-black' placeholder='Cari Pelatihan ...'/>
-        //         </Form>
-        //             </div>
+  return (
+    // <div className="navb bg-white drop-shadow-xl">
+    //         <Form className='nav w-80'>
+    //             <Input className='border-black' placeholder='Cari Pelatihan ...'/>
+    //         </Form>
+    //             </div>
 
-        <div>
+    <div>
       <div className="bg-gray-800 p-4">
         <div className="flex justify-between items-center">
           <div className="text-white text-2xl font-bold">My Website</div>
@@ -35,9 +34,7 @@ function Navigation() {
         </Menu>
       </div>
     </div>
-            );
+  );
 }
 
-export default Navigation
-
-
+export default Navigation;

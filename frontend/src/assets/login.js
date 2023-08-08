@@ -3,12 +3,12 @@ import { Button, Checkbox, Form, Input } from 'antd';
 
 const onFinish = (values) => {
     console.log('Success:', values);
-  };
+};
 
-  const onFinishFailed = (errorInfo) => {
+const onFinishFailed = (errorInfo) => {
     console.log('Failed:', errorInfo);
-  };
-  
+};
+
 
     const Login = () => {
         <Form
