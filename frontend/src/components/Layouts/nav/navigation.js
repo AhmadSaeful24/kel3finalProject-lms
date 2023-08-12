@@ -5,7 +5,7 @@ import React from 'react';
 import "./nav.css"
 
 
-function Navigation() {
+function Nav() {
     return (
         // <div className="navb bg-white drop-shadow-xl">
         //         <Form className='nav w-80'>
@@ -38,6 +38,6 @@ function Navigation() {
             );
 }
 
-export default Navigation
+export default Nav
 
 

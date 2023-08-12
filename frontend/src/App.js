@@ -1,14 +1,10 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './App.css';
-import Navbar from "./components/navigation";
+import UserRoute from "./routes/webRoute";
 
 function App() {
   return (
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={< Navbar />} />
-    </Routes>
-    </BrowserRouter>
+    <>
+    <UserRoute/>
+    </>
   );
 }
 
